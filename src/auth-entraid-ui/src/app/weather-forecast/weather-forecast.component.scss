@@ -1,0 +1,53 @@
+h1 {
+  font-size: 2em; /* Adjust the size of the font */
+  color: #4CAF50; /* Match the table header color or choose another complementary color */
+  text-align: center; /* Center the heading */
+  margin-top: 20px; /* Add some space above the heading */
+  margin-bottom: 20px; /* Add some space below the heading */
+  font-family: 'Arial', sans-serif; /* Choose a clear and readable font */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 1px; /* Add some space between the letters */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+thead th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  text-align: center;
+}

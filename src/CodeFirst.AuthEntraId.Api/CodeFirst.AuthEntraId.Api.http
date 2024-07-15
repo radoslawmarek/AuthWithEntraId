@@ -1,0 +1,6 @@
+@CodeFirst.AuthEntraId.Api_HostAddress = http://localhost:5260
+
+GET {{CodeFirst.AuthEntraId.Api_HostAddress}}/api/weatherforecast/
+Accept: application/json
+
+###

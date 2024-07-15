@@ -1,0 +1,84 @@
+h1 {
+  font-size: 1.5em; /* Adjust the size of the font */
+  color: #4CAF50; /* Match the table header color or choose another complementary color */
+  text-align: center; /* Center the heading */
+  margin-top: 20px; /* Add some space above the heading */
+  margin-bottom: 20px; /* Add some space below the heading */
+  font-family: 'Arial', sans-serif; /* Choose a clear and readable font */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 2px; /* Add some space between the letters */
+}
+
+.container {
+  display: flex; /* Use a flex container */
+  flex-direction: column; /* Arrange items in a column */
+  height: 100vh; /* Set the height of the container to 100% of the viewport height */
+  padding-top: 60px; /* Add space for the fixed application bar */
+}
+
+.application-bar {
+  position: fixed; /* Fix the position of the top bar */
+  top: 0; /* Position it at the top */
+  left: 0; /* Position it at the left edge */
+  width: 100%; /* Make it span the full width */
+  background-color: #ffffff; /* Background color of the top bar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow for better visibility */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the contents */
+  align-items: center; /* Center align the items */
+  padding: 8px 16px; /* Add some padding for spacing */
+}
+
+.login-tab {
+  display: flex; /* Use flexbox for layout */
+  justify-content: flex-end; /* Align the buttons to the right */
+  align-items: center; /* Center the buttons vertically */
+  margin-right: 16px;
+}
+
+.login-tab > button {
+  margin: 8px;
+}
+
+.nav-bar {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the nav links */
+  align-items: center; /* Center the nav links vertically */
+  margin-right: auto; /* Push the nav links to the left */
+  margin-left: 16px; /* Add some margin to the left */
+}
+
+.nav-bar a {
+  text-decoration: none; /* Remove underline from links */
+  color: #4CAF50; /* Set link color */
+  font-family: 'Arial', sans-serif; /* Choose a clear and readable font */
+  font-size: 1em; /* Set font size */
+  margin: 0 8px; /* Add margin between links */
+  padding: 8px 16px; /* Add padding to links */
+  border-radius: 4px; /* Slightly round the corners */
+}
+
+.nav-bar a.active {
+  background-color: #4CAF50; /* Background color for active link */
+  color: #ffffff; /* Text color for active link */
+}
+
+.nav-bar a:hover {
+  background-color: #45a049; /* Darker shade on hover */
+  color: #ffffff; /* White text color on hover */
+}
+
+.content {
+  flex: 1; /* Allow content to take up remaining space */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the content horizontally */
+  //align-items: center; /* Center the content vertically */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f9f9f9; /* Light background color for the content area */
+  border-top: 1px solid #e0e0e0; /* Light border at the top of the content area */
+}
+
+.router-outlet {
+  width: 100%; /* Make the outlet span the full width */
+}

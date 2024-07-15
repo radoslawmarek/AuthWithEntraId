@@ -1,0 +1,19 @@
+<h1>Fake Weather Forecast</h1>
+<table>
+  <thead>
+  <tr>
+    <th>Date</th>
+    <th>Temperature &deg;C</th>
+    <th>Temperature &deg;F</th>
+    <th>Summary</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let forecast of weatherForecasts | async">
+    <td>{{forecast.date}}</td>
+    <td>{{forecast.temperatureC}}</td>
+    <td>{{forecast.temperatureF}}</td>
+    <td>{{forecast.summary}}</td>
+  </tr>
+  </tbody>
+</table>

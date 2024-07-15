@@ -1,0 +1,29 @@
+h1 {
+  font-size: 2em; /* Adjust the size of the font */
+  color: #4CAF50; /* Match the table header color or choose another complementary color */
+  text-align: center; /* Center the heading */
+  margin-top: 20px; /* Add some space above the heading */
+  margin-bottom: 20px; /* Add some space below the heading */
+  font-family: 'Arial', sans-serif; /* Choose a clear and readable font */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 1px; /* Add some space between the letters */
+}
+
+.user-profile {
+  max-width: 600px; /* Set a maximum width for the profile section */
+  margin: 0 auto; /* Center the profile section horizontally */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #ffffff; /* Background color for the profile section */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow for better visibility */
+  border-radius: 8px; /* Round the corners of the profile section */
+  font-family: 'Arial', sans-serif; /* Choose a clear and readable font */
+  color: #333; /* Set the text color */
+}
+
+.user-profile p {
+  margin: 10px 0; /* Add vertical spacing between paragraphs */
+}
+
+.user-profile strong {
+  color: #4CAF50; /* Highlight the labels with a specific color */
+}

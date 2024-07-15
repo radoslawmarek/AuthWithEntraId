@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="application-bar">
+    <h1>{{title}}</h1>
+    <div class="nav-bar">
+      <a routerLink="/weather-forecast" routerLinkActive="active">Weather Forecast</a>
+      <a routerLink="/user-profile" routerLinkActive="active">User Profile</a>
+    </div>
+    <div class="login-tab">
+      <button (click)="login()">Login</button>
+      <button (click)="logout()">Logout</button>
+    </div>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
