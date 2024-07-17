@@ -400,3 +400,7 @@ FodyWeavers.xsd
 
 # angular environments
 environment.development.ts
+
+# configurations
+appsettings.Development.json
+
